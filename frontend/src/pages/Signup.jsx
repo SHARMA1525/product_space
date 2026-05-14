@@ -46,7 +46,7 @@ const Signup = () => {
     <AuthLayout 
       title="Create Identity" 
       subtitle="Establish your unique node in the secure network."
-      brandingTitle="GENESIS"
+      brandingTitle="Product Space"
       brandingDesc="The foundation of secure data sovereignty. Create your immutable identity and join the future."
     >
       <form onSubmit={onSubmit}>

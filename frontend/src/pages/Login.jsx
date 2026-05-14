@@ -34,10 +34,10 @@ const Login = () => {
 
   return (
     <AuthLayout 
-      title="Access Nexus" 
+      title="Access Product Space" 
       subtitle="Sign in to your secure terminal to continue operations."
-      brandingTitle="NEXUS"
-      brandingDesc="Initialize secure handshake with the decentralized mainframe. All data is encrypted with post-quantum protocols."
+      brandingTitle="Product Space"
+      brandingDesc="Initialize secure handshake with the Product Space. All data is encrypted with post-quantum protocols."
     >
       <form onSubmit={onSubmit}>
         {error && <div className="status-msg status-error animate-slide-up">{error}</div>}
@@ -50,7 +50,7 @@ const Login = () => {
             value={email} 
             onChange={onChange} 
             required 
-            placeholder="identity@nexus.sh"
+            placeholder="identity@productspace.sh"
             autoComplete="off"
           />
         </div>

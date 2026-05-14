@@ -52,7 +52,7 @@ const Dashboard = () => {
       <header className="dash-header">
         <div style={{ letterSpacing: '10px', fontSize: '1.2rem', fontWeight: 800 }}>NEXUS // MAIN_NODE</div>
         <button onClick={onLogout} className="btn-pill" style={{ width: 'auto', padding: '10px 25px', fontSize: '0.7rem' }}>
-          Terminate Session
+          Logout
         </button>
       </header>
 
@@ -61,7 +61,7 @@ const Dashboard = () => {
           <div style={{ marginBottom: '50px' }}>
             <div className="label-micro" style={{ marginBottom: '10px' }}>Identity Overview</div>
             <h1 className="auth-title">Welcome, {user?.username}</h1>
-            <p className="auth-subtitle">Operational status: ACTIVE. Your session is currently secured with RSA-4096.</p>
+            <p className="auth-subtitle">Operational status: ACTIVE. Your session is currently secured with Product Space.</p>
           </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '30px' }}>
@@ -95,7 +95,7 @@ const Dashboard = () => {
       </main>
 
       <footer style={{ marginTop: 'auto', textAlign: 'center', fontSize: '0.6rem', color: '#333', letterSpacing: '3px' }}>
-        &copy; 2026 NEXUS SYSTEMS INC. // ALL RIGHTS RESERVED
+        &copy; 2026 PRODUCT SPACE SYSTEMS INC. // ALL RIGHTS RESERVED
       </footer>
     </div>
   );
